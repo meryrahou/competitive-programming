@@ -2,6 +2,8 @@ n , m = map(int , input().split())
 A = []
 for _ in range(n):
     A.append(list(map(int, input().split())))
+
+    
 B = [[0 for _ in range(m)] for _ in range(n)]
 
 def mat_equal(A , B):
