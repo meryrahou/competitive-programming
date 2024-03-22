@@ -1,9 +1,14 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-for i in range(n):
-    for j in range(i + 1, n):
-        if a[i] > a[j] and a[i]+a[j] % 2 != 0:
-            a[i], a[j] = a[j], a[i]
+# check if all the elememnts are even or all the elements are odd 
+verif = (a[0] % 2 == 0 ) # check if the first element is even or odd
+for elem in a:
+    if elem % 2 != 0:
+        verif = False
+        break
 
-print(*a)
+if verif:
+    print(*a)
+else:
+    print(*sorted(a))
