@@ -1,7 +1,5 @@
 # Competitive Programming Repository During Python Track @A2SV
 
-## Description
-
 Welcome to my Competitive Programming Repository! This repository contains solutions to problems from LeetCode and HackerRank as part of the A2SV program.
 
 
